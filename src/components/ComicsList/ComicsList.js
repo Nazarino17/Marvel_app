@@ -1,8 +1,11 @@
+
 import './comicsList.scss';
 import uw from '../../resources/img/UW.png';
 import xMen from '../../resources/img/x-men.png';
 
 const ComicsList = () => {
+
+
     return (
         <div className="comics__list">
             <ul className="comics__grid">
@@ -69,5 +72,4 @@ const ComicsList = () => {
         </div>
     )
 }
-
 export default ComicsList;
